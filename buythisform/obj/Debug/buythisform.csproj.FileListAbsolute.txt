@@ -51,3 +51,5 @@ C:\Riyaz\Git\buythisform\buythisform\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
 C:\Riyaz\Git\buythisform\buythisform\obj\Debug\buythisform.csprojResolveAssemblyReference.cache
 C:\Riyaz\Git\buythisform\buythisform\obj\Debug\buythisform.dll
 C:\Riyaz\Git\buythisform\buythisform\obj\Debug\buythisform.pdb
+C:\Riyaz\Git\buythisform\buythisform\bin\Devtalk.EF.CodeFirst.dll
+C:\Riyaz\Git\buythisform\buythisform\bin\WebActivator.dll

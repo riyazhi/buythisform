@@ -23,6 +23,8 @@ namespace buythisform
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterAuth();
+
+            System.Data.Entity.Database.SetInitializer<buythisform.Models.buythisformContext>(new Devtalk.EF.CodeFirst.DontDropDbJustCreateTablesIfModelChanged<buythisform.Models.buythisformContext>());
         }
     }
 }
