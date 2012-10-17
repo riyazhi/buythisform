@@ -185,6 +185,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\aspnet-buythisform-20121018031902.mdf" />
+    <Content Include="App_Data\aspnet-buythisform-20121018031902_log.ldf">
+      <DependentUpon>aspnet-buythisform-20121018031902.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Data\buythisform.Models.buythisformContext.mdf" />
     <Content Include="App_Data\buythisform.Models.buythisformContext_log.ldf">
       <DependentUpon>buythisform.Models.buythisformContext.mdf</DependentUpon>
