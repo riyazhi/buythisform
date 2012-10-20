@@ -174,24 +174,17 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\PeopleController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
-    <Compile Include="Models\buythisformContext.cs" />
-    <Compile Include="Models\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\aspnet-buythisform-20121018031902.mdf" />
     <Content Include="App_Data\aspnet-buythisform-20121018031902_log.ldf">
       <DependentUpon>aspnet-buythisform-20121018031902.mdf</DependentUpon>
-    </Content>
-    <Content Include="App_Data\buythisform.Models.buythisformContext.mdf" />
-    <Content Include="App_Data\buythisform.Models.buythisformContext_log.ldf">
-      <DependentUpon>buythisform.Models.buythisformContext.mdf</DependentUpon>
     </Content>
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -264,12 +257,6 @@
     <Content Include="Scripts\knockout-2.1.0.debug.js" />
     <Content Include="Scripts\knockout-2.1.0.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
-    <Content Include="Views\People\Create.aspx" />
-    <Content Include="Views\People\CreateOrEdit.ascx" />
-    <Content Include="Views\People\Delete.aspx" />
-    <Content Include="Views\People\Details.aspx" />
-    <Content Include="Views\People\Edit.aspx" />
-    <Content Include="Views\People\Index.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

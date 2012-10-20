@@ -24,7 +24,7 @@ namespace buythisform
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterAuth();
 
-            System.Data.Entity.Database.SetInitializer<buythisform.Models.buythisformContext>(new Devtalk.EF.CodeFirst.DontDropDbJustCreateTablesIfModelChanged<buythisform.Models.buythisformContext>());
+            //System.Data.Entity.Database.SetInitializer<buythisform.Models.buythisformContext>(new Devtalk.EF.CodeFirst.DontDropDbJustCreateTablesIfModelChanged<buythisform.Models.buythisformContext>());
         }
     }
 }
